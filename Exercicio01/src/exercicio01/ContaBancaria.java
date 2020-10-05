@@ -49,6 +49,7 @@ public class ContaBancaria {
     }
     public void abrirConta(){
         
+        
     }
     public void fecharConta(){
         if(this.saldo == 0){
@@ -72,6 +73,11 @@ public class ContaBancaria {
         }
     }
     public void pagarMensal(){
+        if(this.saldo >= 20){
+            System.out.println(" pagamento  mensal pago");
+        }else{
+            System.out.println("saldo insuficiente");
+        }
         
     }
     public void status(){
