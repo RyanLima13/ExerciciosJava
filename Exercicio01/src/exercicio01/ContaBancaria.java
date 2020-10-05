@@ -47,10 +47,7 @@ public class ContaBancaria {
     public void setStatus(boolean v){
         this.status = v;
     }
-    public void abrirConta(){
-        
-        
-    }
+    
     public void fecharConta(){
         if(this.saldo == 0){
             System.out.println(" conta fechada");
